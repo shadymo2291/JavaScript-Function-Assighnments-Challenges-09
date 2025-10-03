@@ -131,6 +131,15 @@ let names = function (...na) {
 
 console.log(names("Osama", "Mohamed", "Ali", "Ebrahim"));
 
+//  Challenge_2
+
+console.log("#".repeat(30));
+console.log(
+  "%cFunction_And_Scopes|Challenge_2",
+  "color: #03a9f4; font-size: 13px; font-weight: bold"
+);
+console.log("#".repeat(30));
+
 let myNumbers = [20, 50, 10, 60];
 
 let calc = (one, two, ...nums) => one + two + Number(nums);
